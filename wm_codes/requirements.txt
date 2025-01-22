@@ -1,0 +1,15 @@
+ipykernel
+torch==1.12.1 
+torchvision==0.13.1
+torchaudio==0.12.1
+augly>=0.2.1
+numpy>=1.21.2
+#pandas==1.5.2
+pandas
+pillow>=9.0.1
+scipy>=1.7.3
+timm>=0.5.4
+tqdm>=4.63.0
+hamming-codec==0.3.5
+#matplotlib==3.6.2
+matplotlib

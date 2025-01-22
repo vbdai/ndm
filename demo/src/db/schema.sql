@@ -1,0 +1,14 @@
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    uname VARCHAR(255) NOT NULL,
+    wallet VARCHAR(255) NOT NULL,
+    agreement VARCHAR(255)
+);
+
+CREATE TABLE assets (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    owner_id INT NOT NULL,
+    filepath VARCHAR(255) NOT NULL,
+    token_id INT NOT NULL,
+    FOREIGN KEY(owner_id) REFERENCES users(id)
+)

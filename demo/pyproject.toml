@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "nft-data-exchange-market-demo"
+version = "0.1.0"
+description = ""
+authors = ["David <ming.xuan.yue@huawei.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.8.15"
+augly = "^1.0.0"
+numpy = "^1.24.2"
+pandas = "^1.5.3"
+pillow = "^9.4.0"
+scipy = "^1.10.0"
+timm = "^0.6.12"
+tqdm = "^4.64.1"
+streamlit = "^1.17.0"
+web3 = "^5.31.3"
+hamming-codec = "^0.3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

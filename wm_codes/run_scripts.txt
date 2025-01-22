@@ -1,0 +1,25 @@
+#w/o ECC
+## num_bits_ID 6 
+--data_dir ./imagenet_sub/ --model_path models/dino_r50_plus.pth --normlayer_path normlayers/out2048_coco_orig.pth
+--target_psnr_list 20 25 30 35 40 45 --num_bits_ID 6 --num_bits 12 --batch_size 1 --carrier_dir ./carriers/
+
+## num_btis_ID 15
+--data_dir ./imagenet_sub/ --model_path models/dino_r50_plus.pth --normlayer_path normlayers/out2048_coco_orig.pth
+--target_psnr_list 20 25 30 35 40 45 --num_bits_ID 15 --num_bits 30 --batch_size 1 --carrier_dir ./carriers/
+
+## num_bits_ID 25 
+--data_dir ./imagenet_sub/ --model_path models/dino_r50_plus.pth --normlayer_path normlayers/out2048_coco_orig.pth
+--target_psnr_list 20 25 30 35 40 45 --num_bits_ID 25 --num_bits 50 --batch_size 1 --carrier_dir ./carriers/
+
+#ECC
+## num_bits_ID 6 
+--data_dir ./imagenet_sub/ --model_path models/dino_r50_plus.pth --normlayer_path normlayers/out2048_coco_orig.pth
+--target_psnr_list 20 25 30 35 40 45 --num_bits_ID 6 --num_bits 20 --batch_size 1 --carrier_dir ./carriers/ --ecc true 
+
+## num_btis_ID 15
+--data_dir ./imagenet_sub/ --model_path models/dino_r50_plus.pth --normlayer_path normlayers/out2048_coco_orig.pth
+--target_psnr_list 20 25 30 35 40 45 --num_bits_ID 15 --num_bits 40 --batch_size 1 --carrier_dir ./carriers/ --ecc true
+
+## num_bits_ID 25 
+--data_dir ./imagenet_sub/ --model_path models/dino_r50_plus.pth --normlayer_path normlayers/out2048_coco_orig.pth
+--target_psnr_list 20 25 30 35 40 45 --num_bits_ID 25 --num_bits 60 --batch_size 1 --carrier_dir ./carriers/ --ecc truef
