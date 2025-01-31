@@ -1,8 +1,9 @@
 # NFT-Based Data Marketplace with Digital Watermarking
 This is the notebook for the [NFT-Based Data Marketplace with Digital Watermarking accepted](https://dl.acm.org/doi/abs/10.1145/3580305.3599876) for publication in 29TH ACM SIGKDD CONFERENCE ON KNOWLEDGE DISCOVERY AND DATA MINING. The notebook has three parts: The first part is for the watermarking experiments, the second part is related to the blockchain experiments, and the third part is related to the codes for demo. 
 
-Get the code and unzip it using the following code
+Link to Huawei's AI Gallery Notebook: https://developer.huaweicloud.com/develop/aigallery/notebook/detail?id=d46d68ac-2e75-42c3-9c11-295a13f5c2c1
 
+Get the code and unzip it using the following code
 
 ```python
 !wget https://vbdai-notebooks.obs.cn-north-4.myhuaweicloud.com/ndm/code.zip 
